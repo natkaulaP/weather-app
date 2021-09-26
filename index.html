@@ -7,18 +7,42 @@
  <link rel="stylesheet" href="src/style.css">
   <title>Weather App</title>
 </head>
-<body> 
+<body>
   <div class="container">
     <div id="current-info">
       <div id="data-container">
         <div id="time-container">16:30<span id="am-pm">PM</span></div>
       <div id="data-container">Sunday, 26 September</div>
       <div id ="current-weather-items">
-        <div id="weather-item"></div>
+        <div class="weather-item">
+          <div>Humidity</div>
+          <div>90%</div>
+        </div>
+        <div class="weather-item">
+          <div>Pressure</div>
+          <div>996 Mb</div>
+        </div>
+        <div class="weather-item">
+          <div>Wind Speed</div>
+          <div>9 km/h</div>
+        </div>
       </div>
+    <div class="place-container">
+      <div id ="time-zone">Europe</div>
+      <div id ="country">Pl</div>
     </div>
+    </div>
+    <div id="future-weather-forecast">
+<div class="today"id="current-temp">
+  <img src="" alt="weather icon"class="w-icon">
+  <div class="day">Sunday</div>
+  <div class="temp">Night - 12 °C</div>
+</div>
+
+
+
+
     </div>
   </div>
-  <script src="src/app.js"></script>
 </body>
 </html>
