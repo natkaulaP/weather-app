@@ -58,3 +58,29 @@ margin: 10px 0px; border: 1px solid#fff;
   display:flex;
 justify-content:space-between;
  }
+ #future-weather-forecast{
+   background:rgba(24,24,27,0.8);
+  padding:25px;
+  position:flex;
+  bottom:0;
+display:flex;
+width:100%;
+align-items:center;
+justify-content:center;
+border-radius: 20px;
+border: 1px solid #fff;
+}
+#future-weather-forecast .today{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+#future-weather-forecast .today .day{
+  background:#3c3c44;
+  padding: 5px 15px;
+  border-radius: 50px; 
+  text-align:center;
+}
+#future-weather-forecast #weather-forecast{
+  display:flex;
+}
