@@ -7,29 +7,41 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <link rel="stylesheet" href="src/style.css">
   <title>Weather App</title>
 </head>
 <body>
   <div class="container">
-    <div id="current-info">  
+    <div id="current-info">
+      <form id="search">
+  <input type="text"placeholder="City name"autocomplete="off"autofocus="on"id="search-input">
+<button id ="submit-button">Search
+</button>
+<button id="current-button">Current</button>
+</form>  
       <div id="data-container">
         <div id="city">Krakow</div>
         <div id="time">16:30<span id="am-pm">PM</span></div>
       <div id="date">Sunday, 26 September</div>
-    
+    <div id="temp">21°C</div>
+<img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon"class="w-icon">
       <div id ="current-weather-items">
         <div class="weather-item">
+          <div>Description</div>
+          <div id="description">Cloudy</div>
+        </div>
+        <div class="weather-item">
           <div>Humidity</div>
-          <div>90%</div>
+          <div id="humidity">%</div>
         </div>
         <div class="weather-item">
           <div>Pressure</div>
-          <div>996 Mb</div>
+          <div id ="pressure"> Mb</div>
         </div>
         <div class="weather-item">
-          <div>Wind Speed</div>
-          <div>9 km/h</div>
+          <div >Wind Speed</div>
+          <div id ="wind">km/h</div>
         
         </div>
       </div>
@@ -95,5 +107,6 @@
 
  </div>
   </div>
+  <script src="src/app.js"></script>
 </body>
 </html>
