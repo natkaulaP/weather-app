@@ -63,15 +63,9 @@ color:#fff;
 #data-container{
   font-weight :lighter;
 }
- #time{
-  font-size:30px;
+ 
 
-}
-#am-pm{
-  font-size: 30px;
-  margin-left:20px;
-}
-#date{
+#date-and-time{
   font-size:25px;
 }
 .place-container{
