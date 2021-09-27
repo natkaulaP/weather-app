@@ -13,8 +13,48 @@ body{
   padding:20px 70px;
 color:#fff;
 }
+#city{
+  font-size:70px;
+}
 #current-info{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+#data-container{
+  font-weight :lighter;
+}
+ #time{
+  font-size:50px;
+
+}
+#am-pm{
+  font-size: 30px;
+  margin-left:20px;
+}
+#date{
+  font-size:30px;
+}
+.place-container{
+  text-align:end;
+}
+.place-container #time-zone{
+  font-size:30px;
+font-weight:lighter;
+}
+.place-container #country{
+  font-size:12px;
+font-weight:bold;
+}
+#current-info{
+  display:flex;
+flex-direction: column;
+background: rgba(24,24,27,0.6); 
+padding: 20px;
+border-radius:20px;
+margin: 10px 0px; border: 1px solid#fff;
+}
+#current-weather-items .weather-item{
+  display:flex;
+justify-content:space-between;
+ }
